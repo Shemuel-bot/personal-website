@@ -1,14 +1,28 @@
 body{
   font-family:'Courier New', Courier, monospace;
   font-size:x-large;
+
   display: flex;
   justify-content: baseline;
   align-items: center;
-
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(73, 73, 73));
   color: white;
 
   height: 98vh;
+  width: 98vw;
+}
+
+.lead{
+  display: flex;
+  gap: 100px;
+}
+
+.projectsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  width: 800px;
 }
 
 .infoContainer{
@@ -21,12 +35,40 @@ body{
   animation: name-intro 1 2s forwards;
 }
 
+.screenShot{
+  max-width: 0px;
+  max-height: 0px;
+
+  border-radius: 10px;
+
+  box-shadow: 5px -5px 10px black;
+  animation: screenshots-intro 1 2s 1s forwards;
+}
+
+.screenShot:hover{
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+
 @keyframes name-intro {
   from {
     margin-left: -900px;
   }
   to {
     margin-left: 100px;
+  }
+}
+
+@keyframes screenshots-intro {
+  from {
+    max-width: 0px;
+    max-height: 0px;
+  }
+  to {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 
