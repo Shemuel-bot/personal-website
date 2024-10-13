@@ -5,22 +5,23 @@ body{
   justify-content: baseline;
   align-items: center;
 
-  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(80, 80, 80));
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(73, 73, 73));
   color: white;
 
   height: 98vh;
 }
 
-.container{
-  margin-left: 100px;
+.infoContainer{
+  margin-left: -900px;
+  animation: name-intro 1 1s forwards;
 }
 
-@keyframes logo-spin {
+@keyframes name-intro {
   from {
-    transform: rotate(0deg);
+    margin-left: -900px;
   }
   to {
-    transform: rotate(360deg);
+    margin-left: 100px;
   }
 }
 
