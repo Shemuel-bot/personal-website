@@ -16,6 +16,11 @@ body{
   animation: name-intro 1 1s forwards;
 }
 
+.email{
+  margin-left: -900px;
+  animation: name-intro 1 2s forwards;
+}
+
 @keyframes name-intro {
   from {
     margin-left: -900px;
