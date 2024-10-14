@@ -47,8 +47,8 @@ body{
 
 .screenShot:hover{
   cursor: pointer;
-  width: 200px;
-  height: 200px;
+
+  box-shadow: -5px 10px 10px rgba(61, 61, 255, 0.719);
 }
 
 
@@ -67,7 +67,7 @@ body{
     max-height: 0px;
   }
   to {
-    max-width: 300px;
+    max-width: 500px;
     max-height: 300px;
   }
 }
