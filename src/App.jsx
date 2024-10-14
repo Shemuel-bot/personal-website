@@ -15,8 +15,11 @@ function App() {
             <h2>Front & backend developer in Texas!</h2>
             <h3>Get in touch...</h3>
           </div>
-          <a href="mailto:pwrbuster-coding@protonmail.com">
+          <a href="mailto:shemuelcastro33@gmail.com">
             <h3 className="email">shemuelcastro33@gmail.com</h3>
+          </a>
+          <a href="https://github.com/Shemuel-bot" target="blank">
+            <h3 className="email">github</h3>
           </a>
           <div className="skillsContainer">
             <h1>Skills</h1>
