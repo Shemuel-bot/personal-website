@@ -71,11 +71,22 @@ function App() {
           </div>
         </header>
         <div className="projectsContainer">
-          <h1>Projects:</h1>
-          <img src={messenger_screen_shot} className="screenShot" alt="" />
-          <img src={twitter_screeen_shot} className="screenShot" alt="" />
-          <img src={shopping_screen_shot} className="screenShot" alt="" />
-          <img src={admin_screen_shot} className="screenShot" alt="" />
+            <h1>Projects:</h1>
+          <a href="https://messaging-app-seven-gilt.vercel.app/" target="blank">
+            <img src={messenger_screen_shot} className="screenShot" alt="" />
+          </a>
+          <a href="https://odin-book-frontend-rho.vercel.app/" target="blank">
+            <img src={twitter_screeen_shot} className="screenShot" alt="" />
+          </a>
+          <a href="https://shopping-cart-ecru-eight.vercel.app/" target="blank">
+            <img src={shopping_screen_shot} className="screenShot" alt="" />
+          </a>
+          <a
+            href="https://shemuel-bot.github.io/admin-dashboard/"
+            target="blank"
+          >
+            <img src={admin_screen_shot} className="screenShot" alt="" />
+          </a>
         </div>
       </div>
     </>
