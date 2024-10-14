@@ -28,6 +28,7 @@ a{
   gap: 20px;
 
   width: 800px;
+  animation: name-intro 1 5s forwards;
 }
 
 .skillsContainer{
@@ -49,13 +50,13 @@ a{
 }
 
 .screenShot{
-  max-width: 0px;
-  max-height: 0px;
+  
+  max-width: 500px;
+  max-height: 300px;
 
   border-radius: 10px;
 
   box-shadow: 5px -5px 10px black;
-  animation: screenshots-intro 1 2s 1s forwards;
 }
 
 .screenShot:hover{
@@ -105,17 +106,6 @@ a{
   }
   to {
     margin-left: 100px;
-  }
-}
-
-@keyframes screenshots-intro {
-  from {
-    max-width: 0px;
-    max-height: 0px;
-  }
-  to {
-    max-width: 500px;
-    max-height: 300px;
   }
 }
 
