@@ -74,7 +74,7 @@ function App() {
           </div>
         </header>
         <div className="projectsContainer">
-            <h1>Projects:</h1>
+            <h1>Some Projects:</h1>
           <a href="https://messaging-app-seven-gilt.vercel.app/" target="blank">
             <img src={messenger_screen_shot} className="screenShot" alt="" />
           </a>
