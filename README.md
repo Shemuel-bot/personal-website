@@ -1,8 +1,26 @@
-# React + Vite
+# Personal website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+https://personal-website-orcin-iota.vercel.app/
+## About
+<div align="center">
+  <img src="src/assets/screen_shot.png">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### description
+This is a personal website to display some of my favorite projects and some information to contact me.
+
+
+### built with
+These are tools that I used to build the site
+
+<ul>
+  <li>
+    <a href="https://react.dev/">React</a>
+</ul>
+
+## Local setup
+
+```sh
+npm run dev
+```
