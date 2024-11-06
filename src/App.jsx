@@ -71,6 +71,13 @@ function App() {
                 className="logo"
               />
             </div>
+            <div>
+              <img
+                src="https://img.icons8.com/?size=100&id=qc3TyHJPxEoH&format=png&color=000000"
+                alt=""
+                className="logo"
+              />
+            </div>
           </div>
         </header>
         <div className="projectsContainer">
