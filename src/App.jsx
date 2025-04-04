@@ -1,7 +1,7 @@
 import messenger_screen_shot from "./assets/screen-shot.png";
 import twitter_screeen_shot from "./assets/screen-shot(1).png";
-import shopping_screen_shot from "./assets/screen-shot (2).png";
-import admin_screen_shot from "./assets/screen-shot (3).png";
+import ai_blog_screen_shot from "./assets/ai-blog-app.png";
+import trip_mosaic from "./assets/screen-shot(4).png";
 
 import "./App.css";
 
@@ -82,20 +82,20 @@ function App() {
         </header>
         <div className="projectsContainer">
             <h1>Some Projects:</h1>
-          <a href="https://messaging-app-seven-gilt.vercel.app/" target="blank">
+          <a href="https://github.com/Shemuel-bot/messaging-app.git" target="blank">
             <img src={messenger_screen_shot} className="screenShot" alt="" />
           </a>
-          <a href="https://odin-book-frontend-rho.vercel.app/" target="blank">
+          <a href="https://github.com/Shemuel-bot/odin-book-frontend.git" target="blank">
             <img src={twitter_screeen_shot} className="screenShot" alt="" />
           </a>
-          <a href="https://shopping-cart-ecru-eight.vercel.app/" target="blank">
-            <img src={shopping_screen_shot} className="screenShot" alt="" />
+          <a href="https://github.com/Shemuel-bot/ai_blog_app.git" target="blank">
+            <img src={ai_blog_screen_shot} className="screenShot" alt="" />
           </a>
           <a
-            href="https://shemuel-bot.github.io/admin-dashboard/"
+            href="https://github.com/Shemuel-bot/travel-itinerary-planner.git"
             target="blank"
           >
-            <img src={admin_screen_shot} className="screenShot" alt="" />
+            <img src={trip_mosaic} className="screenShot" alt="" />
           </a>
         </div>
       </div>
